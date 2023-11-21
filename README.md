@@ -22,14 +22,15 @@ npm install
 ```
 
 Créez un fichier .env à la racine du projet pour configurer vos variables d'environnement. 
-Voici un exemple :
-makefile
 
+Voici un exemple :
+```
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=root
 DB_DATABASE=videogamedb
 Remplacez les valeurs par celles de votre base de données.
+```
 
 Exécutez l'application en utilisant la commande suivante :
 bash
