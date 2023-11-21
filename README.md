@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous d'avoir les dépendances suivantes installées 
 1. Clonez ce dépôt sur votre machine :
 
 ```bash
-git clone https://github.com/votre-utilisateur/tp-api-graphql.git
+git clone https://github.com/f4d3l21/GraphQL-API.git
 cd tp-api-graphql
 npm install
 ```
