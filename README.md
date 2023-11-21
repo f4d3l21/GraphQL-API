@@ -33,9 +33,10 @@ Remplacez les valeurs par celles de votre base de données.
 ```
 
 Exécutez l'application en utilisant la commande suivante :
-bash
-
+```
 npm start
+```
+
 L'API GraphQL sera accessible à l'adresse http://localhost:4000/graphql.
 
 ## :rocket: Utilisation
