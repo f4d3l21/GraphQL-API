@@ -7,7 +7,8 @@ Ce projet est un exemple de création d'une API GraphQL pour gérer une base de 
 Avant de commencer, assurez-vous d'avoir les dépendances suivantes installées sur votre machine :
 
 - Node.js
-- npm 
+- npm
+- appollo-server
 - MariaDB 
 - Docker 
 
