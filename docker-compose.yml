@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: graphql-api
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - DB_HOST=db
+      - DB_USER=root
+      - DB_PASSWORD=root
+      - DB_DATABASE=videogamedb
+    depends_on:
+      - db
+    command: npm start
+
+  db:
+    container_name: mariadb
+    image: mariadb:latest
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=videogamedb
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+
+volumes:
+  db_data:
